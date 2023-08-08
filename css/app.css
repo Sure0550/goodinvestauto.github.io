@@ -109,9 +109,15 @@ img {
     color: black;
 }
 .navbar-nav .nav-link{
+  
     text-transform: uppercase;
     color: var(--color-default);
 }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  --bs-navbar-nav-link-padding-x: 1rem;
+}
+
 .first_screen {
     padding: 100px 0;
     background-color: #b2cdff;
